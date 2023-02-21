@@ -10,7 +10,7 @@ docker-compose up -d
 docker exec -it mongo-primary bash
 
 # once inside the mongo-primary container
-bash scripts/rs-init.sh
+bash /scripts/rs-init.sh
 ```
 
 
