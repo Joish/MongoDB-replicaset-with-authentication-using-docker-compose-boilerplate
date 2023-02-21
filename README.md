@@ -7,7 +7,7 @@ docker-compose up -d
 
 ## Instantiate the replica set and other things
 ```shell
-docker exec -it mongo-primary
+docker exec -it mongo-primary bash
 
 # once inside the mongo-primary container
 bash scripts/rs-init.sh
