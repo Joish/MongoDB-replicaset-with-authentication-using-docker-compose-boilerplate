@@ -19,7 +19,7 @@ bash /scripts/rs-init.sh
 docker-compose down
 ```
 
-## Connection String
+## Connection String for MongoDB Compass
 ```shell
 # for MONGO_INITDB_ROOT_USERNAME and MONGO_INITDB_ROOT_PASSWORD refer mongod.env file. 
 # Note mongod.env is just a sample.
@@ -27,4 +27,6 @@ mongodb://<MONGO_INITDB_ROOT_USERNAME>:<MONGO_INITDB_ROOT_PASSWORD>@localhost:27
 ```
 
 ## Note
-This is not production setup. Treat this as a boilerplate code only.
+This replica set is for educational and demonstration purposes ONLY.
+Running multiple nodes of a Replica Set within a single machine is an anti-pattern, and MUST BE AVOIDED in Production.
+Using this setup for local development though, is perfectly fine.
